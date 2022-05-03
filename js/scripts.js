@@ -33,5 +33,4 @@ function newItem() {
 
     /* REORDER */
     $('#list').sortable();
-
 }
