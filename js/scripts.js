@@ -10,17 +10,12 @@ function newItem() {
         $('#list').append(li);
     }
 
-
     /* STRIKE OUT */
     function strikeOut() {
         li.toggleClass('strike');
     }
 
     li.on('dblclick', strikeOut);
-
-    /* li.on('dblclick', function strikeOut() {
-        li.toggleClass('strike');
-    }); */
 
     /* DELETE */
     let deleteButton = $('<deleteButton></deleteButton>');
